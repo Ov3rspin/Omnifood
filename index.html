@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="resources/vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="resources/vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/vendors/css/animate.css">
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
     <title>Omnifood</title>
@@ -19,12 +20,13 @@
             <div class="row">
                 <img src="OmnifoodContents/Omnifood Contents/logo-white.png" alt="Omnifood logo" class="logo">
                 <img src="OmnifoodContents/Omnifood Contents/logo.png" alt="Omnifood logo" class="logo-black">
-                <ul class="main-nav">
-                    <li><a href="#">Food delivery</a></li>
-                    <li><a href="#">How it works</a></li>
-                    <li><a href="#">Our cities</a></li>
-                    <li><a href="#">Sign up</a></li>
+                <ul class="main-nav js--main-nav">
+                    <li><a href="#features">Food delivery</a></li>
+                    <li><a href="#howitworks">How it works</a></li>
+                    <li><a href="#cities">Our cities</a></li>
+                    <li><a href="#sign">Sign up</a></li>
                 </ul>
+                <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
             </div>
         </nav>
         <div class="hero-text-box">
@@ -34,7 +36,7 @@
         </div>
     </header>
 
-    <section calss="section-features js--section-features">
+    <section class="section-features js--section-features" id="features">
         <div class="row">
             <h2>Get food fast &mdash; not fast food.</h2>
             <p class="long-copy">
@@ -42,7 +44,7 @@
             </p>
         </div>
 
-        <div class="row"> 
+        <div class="row js--wp1"> 
             <div class="col span-1-of-4 box">
                 <i class="ion-ios-infinite-outline icon-big"></i> 
                 <h3>Up to 365 days/year</h3>
@@ -126,12 +128,12 @@
 
     </section>
 
-    <section class="section-steps">
+    <section class="section-steps" id="howitworks">
         <div class="row">
             <h2>How it works &mdash; Simples as 1, 2, 3</h2>
         </div>
         <div class="row">
-            <div class="col span-1-of-2 steps-box">
+            <div class="col span-1-of-2 steps-box js--wp4">
                 <img src="OmnifoodContents/Omnifood Contents/app-iPhone.png" alt="Omnifood app on Iphone" class="app-screen">
             </div>
 
@@ -152,15 +154,14 @@
                 <a href="#" class="btn-app"> <img src="OmnifoodContents/Omnifood Contents/download-app-android.png" alt="Android Store Button"></a>
                 </div>
             </div>
-        </div>
     </section>
 
-    <section class="section-cities">
+    <section class="section-cities" id="cities">
         <div class="row">
             <h2>We're currently in these cities</h2>
         </div>
 
-        <div class="row">
+        <div class="row js--wp2">
             <div class="col span-1-of-4 box">
                 <img src="OmnifoodContents/Omnifood Contents/lisbon-3.jpg" alt="Lisbon">
                 <h3>Lisbon</h3>
@@ -266,13 +267,13 @@
         </div>
     </section>
 
-    <section class="section-plans js--section-plans">
+    <section class="section-plans js--section-plans" id="sign">
         <div class="row">
             <h2></h2>
         </div>
 
         <div class="row">
-            <div class="col span-1-of-3">
+            <div class="col span-1-of-3 js--wp3">
                 <div class="plan-box">
                     <div>
                         <h3>Premium</h3>
